@@ -1,0 +1,19 @@
+name: scrna-pbmc
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - scanpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pandas
+  - jupyterlab
+  - python-igraph
+  - leidenalg
+  - pip
+  - pip:
+      - scvi-tools
+      - streamlit
