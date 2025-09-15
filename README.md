@@ -17,9 +17,9 @@ This workflow demonstrates an end-to-end approach to single-cell data analysis w
 
 |Model                                  |Accuracy          |Macro-F1          |
 |---------------------------------------|------------------|------------------|
-|CellClassify Neural Net                |0.9545454545454546|0.9644901735147453|
 |Logistic Regression                   |0.9545454545454546|0.9637717239786943|
 |Random Forest                          |0.9526515151515151|0.9621167098554327|
+|CellClassify Neural Net                |0.9545454545454546|0.9644901735147453|
 |Random Forest on Autoencoder Embeddings|0.9299242424242424|0.9412082669966715|
 
 [Go to Results.csv](results/model_benchmark.csv)
