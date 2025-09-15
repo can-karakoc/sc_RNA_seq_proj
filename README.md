@@ -23,3 +23,11 @@ This workflow demonstrates an end-to-end approach to single-cell data analysis w
 |Random Forest on Autoencoder Embeddings|0.9299242424242424|0.9412082669966715|
 
 [Go to Results.csv](results/model_benchmark.csv)
+
+ ## Discussion and Results
+
+This project demonstrates how immune cell heterogeneity can be studied by scRNA-seq preprocessing and supervised classification. Through quality control, normalization, and feature selection, biologically meaningful cell clusters were obtained from raw sequencing data. Annotation with canonical marker genes confirmed the expected immune subtypes in PBMCs.
+
+The classification step compared traditional machine learning models (logistic regression, random forest, and neural networks). Despite differences in complexity, all models achieved strong performance, indicating that the preprocessing pipeline effectively distilled informative features. The neural network provided slightly better flexibility, while logistic regression offered interpretability.
+
+Overall, this project highlights both the strengths and trade-offs of classical and deep learning approaches in single-cell analysis. It also illustrates how open-source biomedical data can be leveraged to explore diverse preprocessing, classification, and visualization techniques.
